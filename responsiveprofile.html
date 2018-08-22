@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="responsivestyle.css">
+</head>
+<body>
+    <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+
+<div style="padding: center 2em">
+  <h2>Welcome!</h2>
+  <p>Resize the browser window to see how it works.</p>
+</div>
+<div class="slideshow-container">
+
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 3</div>
+    <img src="images/einsteincoding.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 3</div>
+    <img src="/images/success01.jpg" style="width:100%">
+  </div>
+  
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 3</div>
+    <img src="/images/coding03.jpg" style="width:100%">
+  </div>
+  
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  
+  </div>
+  <br>
+  
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span> 
+    <span class="dot" onclick="currentSlide(2)"></span> 
+    <span class="dot" onclick="currentSlide(3)"></span> 
+  </div>
+<script src="responsive.js"></script>
+</body>
+</html>
